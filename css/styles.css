@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+
+}
+header{
+	background-color:transparent;
+	height: 15vh;
+	background-size: cover;
+	background-position: center;
+
+}
+body{
+	background-image: url(../images/11.jpg);
+	background-size: cover;
+
+
+}
+ul{
+	float: right;
+	list-style-type: none;
+	
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 15px 50px;
+	line-height: 130px;
+	border: 2px solid black;
+	font-size: 20px;
+	transition: 0.6s ease;
+
+}
+ul li a:hover{
+	background-color: grey;
+	color: yellow;
+}
+ul li.active a{
+	background-color: grey;
+	color:yellow;
+
+}
+.logo img{
+	float: left;
+	width: 300px;
+		
+}
+.agno h1{
+	color: white;
+	font-size: 50px;
+	font-family: elephant;
+}
+.agno img{
+	width: 500px;
+	height: 400px;
+	border-radius: 30px;
+}
+.agno p{
+	color: white;
+	font-size: 30px;
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.abagatanen img{
+	width: 500px;
+	height: 400px;
+	border-radius: 300px;
+	padding: 10px 10px;
+
+
+
+}
+.abagatanen h1{
+	color:#40bad5	;
+	font-family: elephant;
+	font-size: 40px;
+}
+.abagatanen h2{
+	color: #c3edea;
+	margin-left: 60px;
+	margin-right: 60px;
+	text-align: justify;
+
+}
+.abagatanen i{
+	color:yellow;
+}
+.abagatanen img:hover{
+	transition: 0.6s;
+	width: 500px;
+	height: 400px;
+	border-radius: 1px;
+}
+footer{
+	color: white;
+	font-size: 20px;
+
+}
